@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cards {
+  text-align: start;
+  padding: 40px;
+  width: 200px;
+  height: 350px;
+}
+
+.cards:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.cards:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.cards:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin-bottom: 85px;
+  color: hsl(0, 0%, 100%, 0.75);
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.cards:nth-child(1) .buttons {
+  color: hsl(31, 77%, 52%);
+}
+
+.cards:nth-child(2) .buttons {
+  color: hsl(184, 100%, 22%);
+}
+
+.cards:nth-child(3) .buttons {
+  color: hsl(179, 100%, 13%);
+}
